@@ -3,6 +3,8 @@ function init()
   self.rotationRate = config.getParameter("rotationRate") or 20
   self.rotationRange = config.getParameter("rotationRange") or {-0.4, math.pi + 0.2}
   
+  if activeItem.hand() == "alt" then self.rotation = self.rotationRange[2] end
+  
   self.damage = {
     damage = 50,
     damageRepeatTimeout = 0.05,
