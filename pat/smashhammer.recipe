@@ -1,1 +1,5 @@
-{"input":[],"output":"smashhammer","groups":["plain","all"]}
+{
+  "input": [ ],
+  "output": "smashhammer",
+  "groups": [ "treasuredtrophies" ]
+}
