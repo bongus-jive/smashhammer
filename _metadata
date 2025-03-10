@@ -1,11 +1,11 @@
 {
-  "version" : "1.1",
   "author" : "patman",
-  "tags" : "Miscellaneous|Weapons",
-  "description" : "a silly little folder of silly developer assets may have leaked :3\nthis hammer was in it and i jkust HAD to put it on the workshop.\n\nmake at hand\n\nit uses a modified version of the script  that :\n- makes the damage area  actually follow the hammer\n- damageRepeatTimeout is 0.05 instead of  being really long\n- parameter thingy\n- hand thingy\n\nif you want the Intended Smashhammer Experience™️ do [code]/spawnitem smashhammer 1 '{\"scripts\":[\"smashhammer.lua\"]}'[/code]\n\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV",
-  "name" : "pat_smashhammer",
+  "description" : "a silly little folder of silly developer assets may have leaked :3\nthis hammer was in it and i jkust HAD to put it on the workshop.\n\nmake at hand\n\nit uses a modified version of the script  that :\n- makes the damage area  actually follow the hammer\n- damageRepeatTimeout is 0.05 instead of  being really long\n- you can adjust damage & rotation with item parameters\n- spawning one-handed smashhammers and dual wielding them is funnier :)\n\nif you want the Intended Smashhammer Experience™️ do [code]/spawnitem smashhammer 1 '{\"scripts\":[\"smashhammer.lua\"]}'[/code]\n\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV",
   "friendlyName" : "smashhammer",
-  "steamContentId" : "2982373561",
+  "includes" : ["devel"],
   "link" : "steam://url/CommunityFilePage/2982373561",
-  "includes": ["devel"]
+  "name" : "pat_smashhammer",
+  "steamContentId" : "2982373561",
+  "tags" : "Miscellaneous|Weapons",
+  "version" : "1.2"
 }
